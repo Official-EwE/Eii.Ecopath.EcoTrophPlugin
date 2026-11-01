@@ -1,8 +1,12 @@
-name: Release NuGet Package
+﻿name: Release NuGet Package
 on:
   push:
     branches:
       - master
+
+permissions:
+  contents: write
+  packages: write
 
 jobs:
   build-and-publish:
