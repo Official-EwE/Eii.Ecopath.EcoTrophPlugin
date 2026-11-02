@@ -39,7 +39,7 @@
     <AssemblyOriginatorKeyFile>ecotroph_asample.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <OutputPath>..\..\ScientificInterface\bin\x86\Debug\</OutputPath>
+    <OutputPath>..\ScientificInterface\bin\x86\Debug\</OutputPath>
     <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
     <CodeContractsEnableRuntimeChecking>False</CodeContractsEnableRuntimeChecking>
     <CodeContractsRuntimeOnlyPublicSurface>False</CodeContractsRuntimeOnlyPublicSurface>
@@ -128,14 +128,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
-      <HintPath>..\..\Includes\Ionic.Zip.dll</HintPath>
+      <HintPath>..\Includes\Ionic.Zip.dll</HintPath>
     </Reference>
     <Reference Include="System.Configuration" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="WeifenLuo.WinFormsUI.Docking">
-      <HintPath>..\..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+      <HintPath>..\Includes\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -198,8 +198,8 @@
     <PackageIcon>EII_plain_128x128.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="..\..\README.md" Pack="True" PackagePath="\" />
-    <None Include="..\..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
+    <None Include="..\README.md" Pack="True" PackagePath="\" />
+    <None Include="..\EII_plain_128x128.png" Pack="True" PackagePath="\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Eii.Ecopath.ScientificInterfaceShared" Version="6.7.*" />
