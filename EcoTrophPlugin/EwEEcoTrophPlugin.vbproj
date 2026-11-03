@@ -168,10 +168,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Includes\Microsoft.VisualBasic.PowerPacks.Vs.dll" />
+
   </ItemGroup>
   <PropertyGroup>
     <OutputPath Condition="'$(OutputPath)' == ''">bin\$(Configuration)\</OutputPath>
